@@ -1,0 +1,44 @@
+{
+  "name": "vue-app-snippets",
+  "displayName": "小程序页面片段生成",
+  "description": "vue小程序片段快捷键",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^0.10.x"
+  },
+  "keywords": [
+    "小程序",
+    "vue",
+    "vue小程序",
+    "支付宝小程序",
+    "钉钉小程序",
+    "wechat"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "extensions": [
+          ".vue"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rufeng2015/vue-app-snippets.git"
+  },
+  "bugs": {
+    "email": "rufeng.zhou@qq.com"
+  },
+  "icon": "images/logo.png"
+}

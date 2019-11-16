@@ -1,0 +1,18 @@
+{
+  "uView": {
+    "prefix": "uView",
+    "body": [
+      "<view class='$1'></view>"
+    ],
+    "description": "view_class 生成代码块"
+  },
+  "view_class": {
+    "prefix": "view_class",
+    "body": [
+      "<view class='$1'>",
+      " $0",
+      "</view>"
+    ],
+    "description": "view class 生成代码块"
+  }
+}
