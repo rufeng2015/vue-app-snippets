@@ -24,12 +24,22 @@
         "extensions": [
           ".vue"
         ]
-      }
+      },
+      {
+        "id": "vue-html",
+        "aliases": [
+          "Vue-html"
+        ]
+      },
     ],
     "snippets": [
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue-html.json"
       }
     ]
   },
